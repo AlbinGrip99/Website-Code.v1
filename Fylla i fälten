@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head> <strong><font size="+3"><center>Skattedeklaration 2019/2020</center></strong></font>
+    
+    <link href="./Style.css" type="text/css" rel="stylesheet">
+    
+    </head>
+    
+    
+    <body>
+        
+    <p> Det här är en interaktiv skattedeklarationsform som tillåter er att enkelt fylla i alla era uppgifter för att sedan få ut en färdig deklaration som inskickas direkt till korrekt myndighet. Vänligen fyll i alla fälten nedan! </p>
+        
+        
+    
+    <form>
+        
+        
+        <h1><font size="+1"> Er skattedeklaration för året 2019</h1></h1></font>
+        
+        <label for="inkomst">Vad består er inkomst utav?</label>
+    <select id="inkomst" name="inkomst">
+        <option value="Bidrag">Bidrag</option>
+        <option value="Lön">Lön</option>
+        <option value="Studielån">Studielån</option>
+        <option value="Sälja knark/Prostituion">Sälja knark/Prostitution</option>    
+        </select><br></br>
+        
+        
+        
+        <br><label for="inkomst summa"> Hur mycket tjänade du under 2019 (kr)</label>
+        <input id="utgifter" type="number" min="0" max="1000000000" value="0" name="Inkomst (kr)" required></br>
+        
+        
+        <br>
+        <label for="utgifter summa">Hur många utgifter hade du under 2019 (kr)?</label>
+    <input id="utgifter" type="number" min="0" max="1000000000" value="0" name="Utgifter(kr)" required></br>
+        
+        
+<br>   <p for="utgifter form">Vilka av följande utgifter har du? Kryssa i alla som gäller!</p>
+    <label for="Köp av hus">Köp av hus</label>
+    <input type="checkbox" value="Köp av hus">
+<label for="Köp av aktier">Köp av aktier</label>
+<input type="checkbox" value="Köp av aktier">
+<label for="skatt">Skatt</label>
+<input type="checkbox" value="Skatt">
+<label for="Inköp av bil">Inköp av bil</label>
+<input type="checkbox" value="Inköp av bil">
+        
+        
+        
+        
+        
+<br></br>
+        <input type="submit">
+        
+        </form>
+        
+
+        
+        
+        
+        
+        
+  
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
